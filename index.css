@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    height: auto;
+    border: 1px solid white;
+    /* background-color: black; */
+}
+/* sec1 */
+
+.sec-1{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./pictures/assignment2-img2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px;
+    border-bottom: 1px solid white;
+}
+.nav-left{
+    margin-left: 20px;
+}
+.left-btn{
+    color: white;
+    font-size: small;
+    border: none;
+    background-color: transparent;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.nav-center{
+    text-align: center;
+    color: white;
+}
+.head-logo{
+    border-bottom: 1px solid gold;
+    margin: 0px;
+}
+.logo-para{
+    color: gold;
+    font-size: x-small;
+    font-family: Arial;
+    letter-spacing: 1px;
+}
+.nav-right{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.right-btn{
+    color: white;
+    font-size: small;
+    border: none;
+    background-color: transparent;
+    margin-right: 20px;
+    cursor: pointer;
+}
+#bookbtn{
+    color: gold;
+    padding: 7px;
+    border: 1px solid gold;
+    cursor: pointer;
+}
+/* main content */
+
+.main-content{
+    padding: 30px;
+}
+.main-para1{
+    color: gold;
+    font-family: Arial;
+    font-size: small;
+    margin-top: 180px;
+    margin-bottom: 20px;
+}
+.main-heading{
+    color: white;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.main-para2{
+    color: white;
+    font-family: Arial;
+    font-size: small;
+    margin-bottom: 24px;
+    line-height: 1.8;
+}
+
+/* sec2 */
+
+.sec-2{
+    background-color: black;
+    padding-top: 20px;
+}
+.nav-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgb(1, 1, 18);
+}
+.nav2-para{
+    color: white;
+    font-family: arial;
+    font-size: small;
+}
+.nav-2btn1{
+    padding: 6px 12px;
+    border: 1px solid white;
+    font-size: x-small;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+.nav-2btn2{
+    padding: 8px 12px;
+    border: none;
+    font-size: x-small;
+    border-radius: 5px;
+    background-color: rgb(205, 143, 21);
+    color: white;
+    cursor: pointer;
+}
+.sec2-head-para h1{
+    color: white;
+    padding-left: 30px;
+}
+.sec2-head-para p{
+    color: wheat;
+    padding-left: 30px;
+    font-family: arial;
+    font-size: small;
+    line-height: 1.8;
+    margin-bottom: 12px;
+}
+.img-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.img-sec img{
+    width: 370px;
+}
